@@ -1,0 +1,67 @@
+============================================================
+   RESNET50 K-FOLD CROSS VALIDATION — RESULTS
+============================================================
+
+--- FOLD 1 ---
+Accuracy : 0.7823
+
+Classification Report:
+                precision    recall  f1-score   support
+
+ Healthy (hem)       0.62      0.84      0.71      1130
+Leukemia (all)       0.91      0.75      0.82      2397
+
+      accuracy                           0.78      3527
+     macro avg       0.76      0.80      0.77      3527
+  weighted avg       0.82      0.78      0.79      3527
+
+Confusion Matrix:
+[[ 950  180]
+ [ 588 1809]]
+
+----------------------------------------
+
+--- FOLD 2 ---
+Accuracy : 0.8188
+
+Classification Report:
+                precision    recall  f1-score   support
+
+ Healthy (hem)       0.68      0.83      0.75      1163
+Leukemia (all)       0.91      0.81      0.86      2418
+
+      accuracy                           0.82      3581
+     macro avg       0.80      0.82      0.80      3581
+  weighted avg       0.84      0.82      0.82      3581
+
+Confusion Matrix:
+[[ 970  193]
+ [ 456 1962]]
+
+----------------------------------------
+
+--- FOLD 3 ---
+Accuracy : 0.7912
+
+Classification Report:
+                precision    recall  f1-score   support
+
+ Healthy (hem)       0.70      0.57      0.63      1096
+Leukemia (all)       0.82      0.89      0.85      2457
+
+      accuracy                           0.79      3553
+     macro avg       0.76      0.73      0.74      3553
+  weighted avg       0.78      0.79      0.79      3553
+
+Confusion Matrix:
+[[ 629  467]
+ [ 275 2182]]
+
+----------------------------------------
+
+============================================================
+FINAL AGGREGATE METRICS
+============================================================
+Average Accuracy  : 0.7974
+Standard Deviation: 0.0155
+Paper format -> 79.74% ± 1.55%
