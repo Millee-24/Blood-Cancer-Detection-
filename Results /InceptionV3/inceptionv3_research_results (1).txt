@@ -1,0 +1,71 @@
+============================================================
+   InceptionV3 K-FOLD CROSS VALIDATION — RESEARCH RESULTS
+============================================================
+
+--- FOLD 1 ---
+Accuracy : 0.7729
+AUC      : 0.8602044960330206
+
+Classification Report:
+                precision    recall  f1-score   support
+
+ Healthy (hem)       0.61      0.80      0.69      1130
+Leukemia (all)       0.89      0.76      0.82      2397
+
+      accuracy                           0.77      3527
+     macro avg       0.75      0.78      0.76      3527
+  weighted avg       0.80      0.77      0.78      3527
+
+Confusion Matrix:
+[[ 899  231]
+ [ 570 1827]]
+
+----------------------------------------
+
+--- FOLD 2 ---
+Accuracy : 0.8319
+AUC      : 0.8842494703310724
+
+Classification Report:
+                precision    recall  f1-score   support
+
+ Healthy (hem)       0.73      0.76      0.75      1163
+Leukemia (all)       0.88      0.87      0.87      2418
+
+      accuracy                           0.83      3581
+     macro avg       0.81      0.81      0.81      3581
+  weighted avg       0.83      0.83      0.83      3581
+
+Confusion Matrix:
+[[ 882  281]
+ [ 321 2097]]
+
+----------------------------------------
+
+--- FOLD 3 ---
+Accuracy : 0.7577
+AUC      : 0.782085446319023
+
+Classification Report:
+                precision    recall  f1-score   support
+
+ Healthy (hem)       0.61      0.59      0.60      1096
+Leukemia (all)       0.82      0.83      0.83      2457
+
+      accuracy                           0.76      3553
+     macro avg       0.72      0.71      0.71      3553
+  weighted avg       0.76      0.76      0.76      3553
+
+Confusion Matrix:
+[[ 647  449]
+ [ 412 2045]]
+
+----------------------------------------
+
+============================================================
+FINAL AGGREGATE METRICS
+============================================================
+Average Accuracy  : 0.7875
+Standard Deviation: 0.0320
+Average AUC       : 0.8422
+Paper format -> 78.75% ± 3.20%
