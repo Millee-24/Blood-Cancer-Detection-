@@ -1,0 +1,67 @@
+============================================================
+   VGG16 K-FOLD CROSS VALIDATION — RESEARCH RESULTS
+============================================================
+
+--- FOLD 1 ---
+Accuracy : 0.8086
+
+Classification Report:
+                precision    recall  f1-score   support
+
+ Healthy (hem)       0.68      0.75      0.72      1130
+Leukemia (all)       0.88      0.83      0.86      2397
+
+      accuracy                           0.81      3527
+     macro avg       0.78      0.79      0.79      3527
+  weighted avg       0.82      0.81      0.81      3527
+
+Confusion Matrix:
+[[ 853  277]
+ [ 398 1999]]
+
+----------------------------------------
+
+--- FOLD 2 ---
+Accuracy : 0.8366
+
+Classification Report:
+                precision    recall  f1-score   support
+
+ Healthy (hem)       0.78      0.69      0.73      1163
+Leukemia (all)       0.86      0.91      0.88      2418
+
+      accuracy                           0.84      3581
+     macro avg       0.82      0.80      0.81      3581
+  weighted avg       0.83      0.84      0.83      3581
+
+Confusion Matrix:
+[[ 804  359]
+ [ 226 2192]]
+
+----------------------------------------
+
+--- FOLD 3 ---
+Accuracy : 0.7782
+
+Classification Report:
+                precision    recall  f1-score   support
+
+ Healthy (hem)       0.65      0.59      0.62      1096
+Leukemia (all)       0.83      0.86      0.84      2457
+
+      accuracy                           0.78      3553
+     macro avg       0.74      0.73      0.73      3553
+  weighted avg       0.77      0.78      0.78      3553
+
+Confusion Matrix:
+[[ 652  444]
+ [ 344 2113]]
+
+----------------------------------------
+
+============================================================
+FINAL AGGREGATE METRICS
+============================================================
+Average Accuracy  : 0.8078
+Standard Deviation: 0.0239
+Paper format -> 80.78% ± 2.39%
