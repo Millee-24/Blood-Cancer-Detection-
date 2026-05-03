@@ -1,5 +1,5 @@
 # Blood-Cancer-Detection
-Blood Cancer (ALL) Detection using Deep LearningThis research project performs a comparative analysis of multiple deep learning architectures to detect Acute Lymphoblastic Leukemia (ALL) from microscopic cell images using the C-NMC dataset.
+Blood Cancer (ALL) Detection using Deep Learning. This research project performs a comparative analysis of multiple deep learning architectures to detect Acute Lymphoblastic Leukemia (ALL) from microscopic cell images using the C-NMC dataset.
 
 🔬 Research Overview:
 The project evaluates four state-of-the-art architectures using 3-fold cross-validation to ensure model robustness and reliable performance metrics:
